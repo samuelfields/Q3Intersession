@@ -2,16 +2,59 @@ body {
 	font-size: 0.8em;
 	font-family: serif;
 
-	background-color: lightblue;
-	font:white;
+	background-color: white;
 }
 h1 {
 	font-family: arial;
 	font-size: 3em;
+	text-align:center;
+}
+h4 {
+	font-family: serif;
+	font-size: 3em;
+	text-align: center;
+}
+h2 {
+		font-size: 2em;
+	text-align:center;
 }
 h3 {
 	font-size: 2em;
+	text-align:center;
 }
 p {
 	font-size:1.3em;
+}
+.topline {
+	position:absolute;
+	top:20%;
+	width:1170px;
+	height:2px;
+	background:navy;
+}
+.spotlighttopline {
+	position:absolute;
+	top:100%;
+	width:1170px;
+	height:2px;
+	background:navy;
+}
+.spotlightbottomline {
+	position:absolute;
+	top:5000%;
+	width:1170px;
+	height:2px;
+	background:navy;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+dd {
+	font-size:1.3em;
+}
+button {
+	align-content:right;
 }
